@@ -1,0 +1,5 @@
+Method,Parameters,Overall,SNR ≥ 0 dB,SNR < 0 dB,At -10 dB,At 0 dB,At +18 dB,Best,ms / decision
+Traditional: features + Decision Tree,-,52.1 %,81.0 %,23.3 %,17.0 %,66.3 %,84.5 %,85.4 % @ 12 dB,1.57
+Traditional: features + Random Forest,-,54.3 %,83.9 %,24.8 %,19.2 %,72.9 %,86.8 %,87.3 % @ 14 dB,25.70
+"VT-CNN2 (published CNN, 2016)",2830427,55.1 %,81.4 %,28.8 %,22.8 %,77.3 %,82.2 %,83.3 % @ 10 dB,1.48
+Our CNN (ResCNN-1D),125451,58.8 %,86.1 %,31.5 %,24.1 %,82.7 %,86.1 %,87.4 % @ 14 dB,1.16

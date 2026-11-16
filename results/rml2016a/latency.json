@@ -1,0 +1,46 @@
+{
+  "system": {
+    "cpu": "AMD Ryzen 5 5600H with Radeon Graphics",
+    "tf_version": "2.21.0",
+    "python": "3.13.13",
+    "gpu": false
+  },
+  "models": {
+    "feat_dt": {
+      "single_mean_ms": 1.566045999158329,
+      "single_p50_ms": 1.597750000655651,
+      "single_p95_ms": 2.1359299920732155,
+      "batch_throughput": 6965.261438903697,
+      "size_mb": 0.762129,
+      "params": null
+    },
+    "feat_rf": {
+      "single_mean_ms": 25.69979666674044,
+      "single_p50_ms": 26.752649995614775,
+      "single_p95_ms": 32.05476998118684,
+      "batch_throughput": 4185.270137499197,
+      "size_mb": 1305.555505,
+      "params": null
+    },
+    "vtcnn2": {
+      "single_mean_ms": 1.4764239989259902,
+      "single_p50_ms": 1.4491000038105994,
+      "single_p95_ms": 1.8383449903922158,
+      "batch_throughput": 5481.895558117049,
+      "size_mb": 34.018581,
+      "params": 2830427,
+      "single_mean_ms_without_xla": 1.662413665811376,
+      "compiled_with_xla": true
+    },
+    "rescnn": {
+      "single_mean_ms": 1.161472333187703,
+      "single_p50_ms": 1.1448000004747882,
+      "single_p95_ms": 1.485660014441237,
+      "batch_throughput": 21157.199647751986,
+      "size_mb": 1.694687,
+      "params": 125451,
+      "single_mean_ms_without_xla": 2.1102263335099756,
+      "compiled_with_xla": true
+    }
+  }
+}
